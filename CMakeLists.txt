@@ -14,6 +14,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MissionPlan.msg"
   "msg/TaskStatus.msg"
   "msg/VoxelGrid.msg"
+  "msg/Particle.msg"
+  "msg/ParticleCloud.msg"
   "srv/GetCostmap.srv"
   "srv/ClearCostmapExceptRegion.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
